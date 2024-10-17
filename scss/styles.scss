@@ -1,0 +1,91 @@
+.btn-outline-secondary{
+  color:var(--bs-secondary);
+}
+.btn-outline-secondary{
+  &:hover{
+    color: #fff;
+  }
+}
+.header .decoration-star-1{
+  top:30px;
+  left:-150px;
+  width:600px;
+  opacity: 0.5;
+}
+.header .decoration-star-2{
+  top:80px;
+  right:-100px;
+  width: 400px;
+  opacity: 0.7;
+}
+.xl-text{
+  font-size: 75px;
+}
+.navbar-shadow{
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.9;
+}
+.details .decoration-star-3{
+  top:30px;
+  left:-150px;
+  width:500px;
+  
+}
+.decoration-star-4{
+  top:80px;
+  right:-100px;
+  width: 400px;
+  opacity: 0.7;
+}
+.decoration-star-5{
+  top:80px;
+  left:-200px;
+  width: 400px;
+  opacity: 0.7;
+}
+
+.to-top-btn{
+  position: fixed;
+  z-index: 20;
+  bottom:20px;
+  right: 20px;
+  border: none;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border-radius: 50%;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  &:hover{
+    background-color: #1d1d21;
+    
+  }
+}
+.to-top-btn{
+  img{
+    margin-bottom: .25rem;
+    width:18px;
+  }
+}
+.show{
+  opacity: 1;
+}
+
+@media(max-width:992px){
+  .services .col-md-4 {
+    border-bottom: 1px#ccc solid;
+    margin: 10px 0;
+  }
+
+  .details2 {
+    margin-top: 20px !important;
+  }
+  .decoration-star-4{
+    top:450px;
+  }
+  
+}
